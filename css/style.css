@@ -1,0 +1,301 @@
+/* Global CSS */
+body{
+	font-family: 'Roboto Slab', serif;
+}
+ul li{
+	list-style: none;
+}
+
+
+
+/* Header Section */
+
+header{
+	width: 100%;
+	background-color: white;
+	float: left;
+}
+
+.logo{
+	float: left;
+	margin-top: 20px;
+}
+.navigation{
+	float: right;
+	margin-top: 30px;
+}
+
+.navigation li{
+	display: inline;
+    padding: 13px 15px;
+    color: #505050;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.navigation li:hover{
+	color: white!important;
+    background-color: #dd4b2b;
+    transition: 0.4s cubic-bezier(0.25, 0.1, 0.5, 1.36);
+    border-radius: 30px;
+    padding: 13px 15px;
+}
+
+/* Banner Section */
+
+.banner{
+	width: 100%;
+	float: left;	
+}
+
+.bn-img{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+.banner h1{
+	color: #fff;
+	font-weight: 300;
+	padding-top: 330px;
+
+}
+.banner p{
+	color: #fff;
+}
+
+.banner img{
+	vertical-align: middle;
+    border-style: none;
+    margin-top: 45px;
+    height: 130px;
+    width: 140px;
+}
+
+.banner h4{
+	padding-top: 15px;
+	color: #fff;
+}
+.p{
+	padding-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.read-btn{
+	padding: 8px 40px;
+    margin: 20px 0px 100px;
+    border-radius: 25px;
+    color: #5d1010;
+    border: 0px;
+}
+
+.read-btn:hover{
+	cursor: pointer;
+	background-color: #ff740d;
+    color: #fff;
+    border: 0px;
+}
+
+/*News section*/
+
+.news{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+.news h4{
+	font-weight: 600;
+}
+
+.n-img{
+	margin-top: 40px;
+	height: 260px;
+    width: 370px;
+}
+.news h5{
+	margin-top: 30px;
+	font-weight: 500;
+}
+.p1{
+	font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.readmore{
+	padding: 15px 50px;
+    background-color: #efecec;
+    border-radius: 20px;
+    color: #44413f;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.readmore:hover{
+	background-color: #ff7e00;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Newsletter section */
+
+.newsletter{
+	width: 100%;
+	float: left;
+	background: url(../img/newsletter.png) no-repeat;
+	background-size: cover;
+}
+
+.overlay{
+	background-color: rgba(3, 3, 3, 0.5);
+    overflow: hidden;
+}
+
+.letter{
+	padding: 60px 0px;
+}
+.letter h4{
+	color: #fff;
+}
+.p2{
+	color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.newsletter form{
+	margin-top: 30px;
+}
+
+.email{
+	padding: 7px 100px;
+    border: 1px solid #9a9a9a;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #f5f5f5;
+}
+
+.submit{
+	padding: 6.5px 50px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 17px;
+    color: #6c4e30;
+    font-weight: 300;
+    position: absolute;
+    cursor: pointer;
+    right: 75px;
+}
+.submit:hover{
+	border: 1px solid #f37112;
+    background-color: #f37112;
+    color: #fff;
+}
+
+/* Product Section CSS */
+
+.product{
+	float: left;
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.product h4 {
+	font-weight: 600;
+}
+
+.product p{
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.sign-up1{
+	padding: 10px 60px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #cc5712;
+    font-size: 17px;
+    color: #fbfbfb;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sign-up1:hover{
+	border: 1px solid #4b4e73;
+    background-color: #4b4e73;
+    color: #fff;
+}
+
+
+.sign-up2{
+	padding: 10px 60px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: #4b4e73;
+    font-size: 17px;
+    color: #fbfbfb;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.sign-up2:hover{
+	border: 1px solid #cc5712;
+    background-color: #cc5712;
+    color: #fff;
+}
+
+.product img{
+	height: 350px;
+	width: 100%;
+}
+.div3{
+  padding-top: 50px;
+}
+.div4{
+	padding-top: 50px;
+
+}
+
+/* Link Section CSS*/
+
+.link{
+	width: 100%;
+	float: left;
+	background-color: #cc5712;
+}
+.link ul{
+	margin: 80px 0;
+}
+.link li{
+	margin-top: 10px;
+	font-size: 14px;
+}
+.link a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+
+.link a:hover{
+	    color: #212121;
+}
+
+/* Footer Section CSS */
+
+footer{
+	width: 100%;
+	float: left;
+	background: url(../img/newsletter.png);
+}
+
+footer p{
+	color: #d4d0d0;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 70px 0 150px;
+}
